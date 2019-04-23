@@ -5,9 +5,6 @@ var body = document.getElementById("gradient");
 var currentbackground = document.getElementById("demo");
 var amazing = document.getElementById('amazing');
 
-
-
- 
 function setGradient(){
     body.style.background = "linear-gradient(to right, "
                             + color1.value 
